@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  
+  height: 100vh;
+  width: 100vw;
+  background-color: #009739;
+  align-items: center;
+  justify-content: center;
+  background-size: 64px 128px;
+  font-family: 'Comme', sans-serif; 
+}
+
+.main .container {
+  height: 500px;
+  width: ;
+  display: flex;
+  flex-direction : column;
+  padding: 40px 20px 20px 20px;
+  align-self: center;
+  position: relative;
+  background-color: #fff;
+ 
+}
+
+#title {
+  text-align: center;
+  font-size: 2.5em;
+  color: #FEDD00;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.chart {
+  position: absolute;
+  top: 3.5em;
+  left: 15em;
+  align-items: center;
+  justify-items: center;
+  display: flex;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  text-align: center;
+  width: 65px;
+  height: 65px;
+  padding: 2px;
+  font: 11px;
+  box-shadow: 1px 1px 10px;
+  background: #FEDD00;
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+.overlay {
+  position: absolute;
+  background: #fff;
+  pointer-events: none;
+}
+
+#y-axis path {
+  stroke: black;
+  stroke-width: 1;
+  fill: none;
+}
+
+#x-axis path {
+  stroke: black;
+  stroke-width: 1;
+  fill: none;
+}
+
+.info {
+  font-size: 1em;
+}
+
+.author {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  background-color: #009739;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+.author a {
+  text-decoration: none;
+  color: #012169;
+  font-weight: bold;
+}
